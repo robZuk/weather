@@ -1,6 +1,5 @@
 import { coordinatesByLocation } from "../data";
 import { showSections } from "../index";
-const searchSection = document.querySelector(".search-section");
 
 let searchedCities = [];
 
