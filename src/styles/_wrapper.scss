@@ -28,6 +28,9 @@ body {
       position: sticky;
       top: 0;
     }
+    @media (orientation: landscape) and (max-width: 1000px) {
+      height: 100vw;
+    }
   }
 
   .section2 {

@@ -5,7 +5,7 @@ const wrapper = document.querySelector(".loader");
 function loader() {
   wrapper.innerHTML = `
   <div class="loader-inner-wrapper"></div>
-  <h1 class="loader-title">Weather forecast</h1>
+  <h1 class="loader-title">Loading ...</h1>
   <image class="loader-image"/>
 `;
   const image = document.querySelector(".loader-image");
@@ -18,6 +18,6 @@ function loader() {
 function hideLoader() {
   wrapper.style.display = "none";
 }
-window.addEventListener("load", () => setTimeout(hideLoader, 700));
+window.addEventListener("load", () => setTimeout(hideLoader, 1000));
 
 export { loader };
