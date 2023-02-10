@@ -6,7 +6,7 @@
 
 ### Technologies
 
-- JacaScript
+- JavaScript
 - Webpack 5
 - Bootstrap 5
 
